@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelia - Loja Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="fotos/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-gem"></i>
+                    <span>Marcelia</span>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio" class="nav-link">Início</a></li>
+                        <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                <button class="btn btn-primary">Comprar Agora</button>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Perfumes da Natura, Avon e Boticário</h1>
+                <p class="hero-subtitle">Perfumes a pronta entrega com qualidade e preços especiais.</p>
+                <div class="hero-buttons">
+                    <a href="#produtos" class="btn btn-primary">Ver Produtos</a>
+                    <a href="https://wa.me/5511983816705?text=Fale%20comigo%20no%20WhatsApp!" target="_blank"
+                        class="btn btn-secondary">
+                        <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="produtos">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="color: #c9278ef9;" class="section-title">Produtos em Destaque</h2>
+                <p style="color: #c9278ef9;" class="section-subtitle">Descubra nossa seleção exclusiva de perfumes</p>
+            </div>
+
+            <div class="carousel">
+                <button class="carousel-btn prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="carousel-track">
+                    <div class="products-grid page">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/floratta.webp" alt="Essence Noir">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name"></h3>
+                                <p class="product-price">Linha Floratta</p>
+                                <button class="btn btn-product">Fale comigo</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/foto_perfume_egeo.jpg" alt="Perfume Floral">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name"></h3>
+                                <p class="product-price">Linha Egeo</p>
+                                <button class="btn btn-product">Fale comigo</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/perfume02.jpeg" alt="Perfume Amadeirado">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Perfume Amadeirado</h3>
+                                <p class="product-price">R$ 349,90</p>
+                                <button class="btn btn-product">Fale comigo</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Cremes Natura Tododia">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Cremes Natura Tododia</h3>
+                                <p class="product-price">R$ 49,90</p>
+                                <button class="btn btn-product">Fale comigo</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/sabonete.jpeg" alt="Sabonete Tododia">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Sabonete Tododia</h3>
+                                <p class="product-price">R$ 29,90</p>
+                                <button class="btn btn-product">Fale comigo</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/mamae e bebe.jpeg" alt="Kit Mamãe e Bebê">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Kit Mamãe e Bebê</h3>
+                                <p class="product-price">R$ 139,90</p>
+                                <button class="btn btn-product">Fale comigo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-grid page">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/todo dia.jpeg" alt="Produto 7">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 7</h3>
+                                <p class="product-price">R$ 99,90</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/perfume.jpeg" alt="Produto 8">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 8</h3>
+                                <p class="product-price">R$ 120,00</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 9">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 9</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 10">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 10</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 11">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 11</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 12">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 12</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-grid page">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/todo dia.jpeg" alt="Produto 13">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 13</h3>
+                                <p class="product-price">R$ 99,90</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/perfume.jpeg" alt="Produto 14">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 14</h3>
+                                <p class="product-price">R$ 120,00</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 15">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 15</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 16">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 16</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 17">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 17</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 18">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 18</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-grid page">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/todo dia.jpeg" alt="Produto 19">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 19</h3>
+                                <p class="product-price">R$ 99,90</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/perfume.jpeg" alt="Produto 20">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 20</h3>
+                                <p class="product-price">R$ 120,00</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 21">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 21</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 22">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 22</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 23">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 23</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="fotos/creme.jpeg" alt="Produto 24">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Produto 24</h3>
+                                <p class="product-price">R$ 85,50</p>
+                                <button class="btn btn-product">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <button class="carousel-btn next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="carousel-dots"></div>
+        </div>
+    </section>
+
+
+    <section class="cta" id="promocoes">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Encontre o perfume ideal para você</h2>
+                <p class="cta-subtitle">Ofertas exclusivas e fragrâncias que combinam com seu estilo</p>
+                <a href="#produtos" class="btn btn-cta">Comprar Agora</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-gem"></i>
+                        <span>Marcelia Loja Online</span>
+                    </div>
+                    <p class="footer-description">
+                        Fragrâncias exclusivas que marcam presença e elegância.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Contato</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> (11) 98381-6705</li>
+                        <li><i class="fas fa-envelope"></i> contato@luxeparfum.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Guarulhos, SP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5511983816705?text=Olá,%20gostaria%20de%20atendimento!" class="whatsapp-float"
+        target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
